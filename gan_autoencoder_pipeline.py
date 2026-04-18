@@ -26,8 +26,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # -----------------------------
 # DATASET PATHS
 # -----------------------------
-train_path = r"E:\dataset_updated\updated code\gan-autoencoder\train"
-test_path  = r"E:\dataset_updated\updated code\gan-autoencoder\test"
+train_path = "path/to/dataset/train"
+test_path  = "path/to/dataset/test"
 
 # -----------------------------
 # CLASS MAPPING (5 → 3 GROUPS)
