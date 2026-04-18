@@ -94,6 +94,20 @@ This project uses the publicly available **Osteosarcoma-Tumor-Assessment dataset
 - Users must manually download the dataset from TCIA before running the project.
 
 ---
+## Dataset Setup
+
+Users must:
+1. Download the dataset from TCIA:
+   https://doi.org/10.7937/tcia.2019.bvhjhdas
+
+2. Organize it as:
+   dataset/
+     ├── train/
+     └── test/
+
+3. Update the dataset path in the code:
+   train_path = "path/to/train"
+   test_path  = "path/to/test"
 
 ## 🚀 Project Goal
 
